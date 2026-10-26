@@ -1,0 +1,16 @@
+{
+  "name": "websocket-lecture",
+  "version": "1.0.0",
+  "description": "WebSocket 강의 자료 및 실습 코드 (Node.js + ws)",
+  "private": true,
+  "scripts": {
+    "chat": "node chat/server.js",
+    "ex:tcp-server": "node examples/01-tcp-server.js",
+    "ex:tcp-client": "node examples/02-tcp-client.js",
+    "ex:echo-server": "node examples/03-ws-echo-server.js",
+    "ex:echo-client": "node examples/04-ws-echo-client.js"
+  },
+  "dependencies": {
+    "ws": "^8.18.0"
+  }
+}
